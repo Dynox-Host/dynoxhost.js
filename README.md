@@ -70,4 +70,5 @@ console.log(data);
 ## License
 
 © Copyright 2021, Dynox Hosting
+
 [MIT License](https://opensource.org/licenses/MIT)
