@@ -57,10 +57,14 @@ console.log(data);
 
 > **`serverID`** = **Your Bot/Server ID**
 
+> **`backupID`** = **Your Backup ID**
+
 > **`state`** = **Power State (can be: start, stop, restart, kill)**
 - `getDetails(serverID)` *Get all server informations. Ex: Name*
 - `getUsage(serverID)` *Get the server usage. Ex: RAM*
 - `setPowerState(serverID, state)` *Start/Stop/Kill/Restart the server remotely*
+- `createBackup(serverID)` *Creates a new backup of your server*
+- `getBackupDetails(serverID, backupID)` *Gives you details about a backup*
 
  
 ## Links
