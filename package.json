@@ -1,0 +1,25 @@
+{
+  "name": "dynoxhost.js",
+  "version": "1.0.1",
+  "description": "Fetch your bot (hosted on Dynox) data with ease!",
+  "homepage": "https://dynoxhost.ml",
+  "main": "src/DynoxHost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dynox",
+    "host",
+    "stats",
+    "data",
+    "easy"
+  ],
+  "author": "LukeIsHereToDevelop <luke@dynoxhost.ml> (https://lukedev.tk)",
+  "contributors": [
+    "logischjojo <admin@dynoxhost.ml>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
