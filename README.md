@@ -53,6 +53,8 @@ let data = await dh.getUsage('SERVER_ID');
 console.log(data);
 ```
 
+You can find other examples [here](https://github.com/Dynox-Host/dynoxhost.js/tree/main/examples).
+
 ## Reference
 
 > **`serverID`** = **Your Bot/Server ID**
