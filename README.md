@@ -14,16 +14,16 @@ npm install --save dynoxhost.js
 ```bash
 yarn add dynoxhost.js
 ```
-or if you need to install it in [Dynox Hosting](https://dynoxhost.ml):
+or if you need to install it in [Dynox Hosting](https://dynox.us):
 
 Add `"dynoxhost.js": "latest"` at the end of your dependencies in package.json file
 
 ## Requirements
-[`API Key`](https://panel.dynoxhost.tk) - **User API Key of Dynox Host**
+[`API Key`](https://panel.dynox.us) - **User API Key of Dynox Host**
 
 
 ## How to get API-KEY
-1. Visit the [panel](https://panel.dynoxhost.tk)
+1. Visit the [panel](https://panel.dynox.us)
 2. Login with your credentials
 3. Click on the User-Icon in the upper right side of the panel
 4. Choose the Tab API Credentials
@@ -70,8 +70,8 @@ You can find other examples [here](https://github.com/Dynox-Host/dynoxhost.js/tr
 
  
 ## Links
-- [Main Website](https://dynoxhost.ml)
-- [Panel](https://panel.dynoxhost.tk)
+- [Main Website](https://dynox.us)
+- [Panel](https://panel.dynox.us)
 
 ## License
 
