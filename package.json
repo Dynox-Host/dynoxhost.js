@@ -4,7 +4,7 @@
   "description": "Fetch your bot (hosted on Dynox) data with ease!",
   "homepage": "https://dynoxhost.ml",
   "repository": "github:Dynox-Host/dynoxhost.js",
-  "main": "src/DynoxHost.js",
+  "main": "./dist/DynoxHost.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,6 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.5.10"
-  }
+  },
+  "files": ["dist"]
 }

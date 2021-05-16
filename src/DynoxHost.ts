@@ -1,6 +1,6 @@
 "use strict";
 import fetch from "node-fetch"
-export default class DynoxHost {
+class DynoxHost {
     private apikey: string;
     constructor(api: string) {
         if (!api) throw new Error('[DH.js] Missing User API Key');
@@ -106,3 +106,5 @@ export default class DynoxHost {
         return json;
     } 
 };
+export default DynoxHost
+export { DynoxHost }
