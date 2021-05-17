@@ -10,10 +10,6 @@ class DynoxHost {
     };
 
     async getUsage(id: string) {
-        /**
-         * Get server usage/stats.
-         * @param {String} id Server ID
-         */
         if (!id) throw new Error('[DH.js] Missing Server ID in getUsage()');
         if (typeof id !== 'string') throw new Error('[DH.js] Server ID in getUsage() must be a String');
 
@@ -28,10 +24,6 @@ class DynoxHost {
     };
 
     async getDetails(id: string) {
-        /**
-         * Get server details.
-         * @param {String} id Server ID
-         */
         if (!id) throw new Error('[DH.js] Missing Server ID in getUsage()');
         if (typeof id !== 'string') throw new Error('[DH.js] Server ID in getServerDetails() must be a String');
 
@@ -46,11 +38,6 @@ class DynoxHost {
     }
 
     async setPowerState(id: string, state: string) {
-        /**
-         * Set server power state.
-         * @param {String} id Server ID
-         * @param {String} state Power State
-         */
         if (!id) throw new Error('[DH.js] Missing Server ID in setPowerState()');
         if (typeof id !== 'string') throw new Error('[DH.js] Server ID in setPowerState() must be a String');
         if (!state) throw new Error('[DH.js] Missing Power State in setPowerState()');
@@ -68,10 +55,6 @@ class DynoxHost {
     }
 
     async createBackup(id: string) {
-        /**
-         * Creates a backup.
-         * @param {String} id Server ID
-         */
         if (!id) throw new Error('[DH.js] Missing Server ID in createBackup()');
         if (typeof id !== 'string') throw new Error('[DH.js] Server ID in createBackup() must be a String');
 
@@ -86,11 +69,6 @@ class DynoxHost {
     }
 
     async getBackupDetails(id: string, backupID: string) {
-        /**
-         * Gets details about a backup.
-         * @param {String} id Server ID
-         * @param {String} backupID Backup ID
-         */
         if (!id) throw new Error('[DH.js] Missing Server ID in getBackupDetails()');
         if (typeof id !== 'string') throw new Error('[DH.js] Server ID in getBackupDetails() must be a String');
         if (!backupID) throw new Error('[DH.js] Missing Backup ID in getBackupDetails()');
