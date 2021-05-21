@@ -83,6 +83,12 @@ class DynoxHost {
         let json = res.json();
         return json;
     } 
+    async getState(id: string) {
+        if (!id) throw new Error('[DH.js] Missing Server ID in getState()');
+        if (typeof id !== 'string') throw new Error('[DH.js] Server ID in getState() must be a String');
+        const details = await this.getDetails(id)
+        return details.data.attributes.state
+    }
 };
 export default DynoxHost
 export { DynoxHost }
